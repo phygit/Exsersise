@@ -13,11 +13,11 @@ print(bmi)
 
 
 
-if bmi < 18.5 :
+if bmi <= 18.5 :
     print("under weight")
-if bmi > 30 :
+if bmi >= 30 :
     print("obesity")
-elif 18.5 < bmi < 25 :
+elif 18.5 < bmi <= 25 :
     print("Normal")
 else :
     print("overweight")
